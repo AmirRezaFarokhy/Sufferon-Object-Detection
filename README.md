@@ -1,6 +1,10 @@
 # Sufferon-Object-Detection
 Identifying saffron flower using artificial intelligence and crabbing its period using yolov5. The Weights and data are private.
 
+## Results
+![Saffron_crocus](https://user-images.githubusercontent.com/113052872/206865906-73d64b56-ebe5-443a-9f7c-9817edeb7632.jpg)
+
+
 ### Description to use
 1) you must create tow folder `flowers_train` and `valid_flower` and put data image into them. 3 type of images Flower of terror, sufferon and Half open flower. 
 2) run the `preprocessing_data.py` python file for prepare data to fit the model. 
