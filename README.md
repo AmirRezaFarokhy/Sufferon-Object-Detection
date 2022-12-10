@@ -1,5 +1,5 @@
 # Sufferon-Object-Detection
-Identifying saffron flower using artificial intelligence and crabbing its period using yolov5.
+Identifying saffron flower using artificial intelligence and crabbing its period using yolov5. The Weights and data are private.
 
 ### Description to use
 1) you must create tow folder `flowers_train` and `valid_flower` and put data image into them. 3 type of images Flower of terror, sufferon and Half open flower. 
