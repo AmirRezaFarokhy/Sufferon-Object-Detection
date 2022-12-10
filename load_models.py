@@ -74,5 +74,12 @@ def PredictTestThree(model_path):
         print("No... it is another type of flower...")
 
 PredictTestOne(PATH_MODEL)
+print(f"model One Done!!!")
+
 PredictTestTow(PATH_MODEL)
+print(f"model Tow Done!!!")
+
 PredictTestThree(PATH_MODEL)
+print(f"model Three Done!!!")
+
+
