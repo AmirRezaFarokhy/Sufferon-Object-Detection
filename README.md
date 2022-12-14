@@ -14,7 +14,7 @@ Identifying saffron flower using artificial intelligence and crabbing its period
 6) if the result in  `load_models.py` is sufferon we must use the yolov5.
 7) Check the site below to learn more about YOLOv5: 
 https://github.com/ultralytics/yolov5
-8) To find out the real time, I read this person's github and the code belongs to her. https://github.com/niconielsen32
+8) To find out the real time, I read this person's github and the code belongs to him. https://github.com/niconielsen32
 
 ### Requirements
 Running `sufferon-detection` requires:
