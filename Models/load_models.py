@@ -3,6 +3,7 @@ import numpy as np
 
 import tensorflow as tf 
 from tensorflow.keras.models import load_model, model_from_json
+from YoloModel import RealTimeObjectDetection
 
 PATH_TEST = ""
 PATH_MODEL = "Model_Weight/"
