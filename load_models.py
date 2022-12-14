@@ -6,6 +6,7 @@ from tensorflow.keras.models import load_model, model_from_json
 
 PATH_TEST = ""
 PATH_MODEL = "Model_Weight/"
+PATH_YOLO_MODEL = 'Model_Weight/best.pt'
 LIST_CATEGORIES = ["Flowerـofـterror",
                    "2_sufferon",
                    "Halfـopenـflower"]
@@ -72,14 +73,24 @@ def PredictTestThree(model_path):
         print("Yes it is sufferon --- you must do YOLOv5 for Object Detection sufferon...")
     else:
         print("No... it is another type of flower...")
+        
+        
+def Yolov5Model(camera_index=0, model_path):
+    model_detection = RealTimeObjectDetection(capture_index=camera_index, model_name=model_path)
+    model_detection()
+    
+    
 
 PredictTestOne(PATH_MODEL)
-print(f"model One Done!!!")
+print("model One Done!!!")
 
 PredictTestTow(PATH_MODEL)
-print(f"model Tow Done!!!")
+print("model Tow Done!!!")
 
 PredictTestThree(PATH_MODEL)
-print(f"model Three Done!!!")
+print("model Three Done!!!")
+
+Yolov5Model(camera_index=0, PATH_YOLO_MODEL)
+print("yolo model detect!!!")
 
 
