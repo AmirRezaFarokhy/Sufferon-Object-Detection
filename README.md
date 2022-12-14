@@ -39,6 +39,10 @@ pip install tensoflow
 pip install matplotlib
 # install keras
 pip install keras
+# install torchvision
+pip install torchvision
+# install torch
+pip install torch
 # Clone and install YOLOYv5
 git clone https://github.com/ultralytics/yolov5  
 cd yolov5
