@@ -9,6 +9,7 @@ from tensorflow.keras.models import Sequential, model_from_json
 from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.layers import Dense, Conv2D, MaxPooling2D, Flatten, Dropout
 
+
 PATH_TRAIN = "training_data/train.pickle"
 PATH_VALID = "validation_data/valid.pickle"
 PATH_FILE_TEST = "test/"
