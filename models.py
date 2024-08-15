@@ -21,6 +21,7 @@ SHAPES = (150, 150)
 EPOCH = 10
 BATCH_SIZE = 16
 
+
 # loading data that created in preprocessing_data.py
 def load_data(path):
 	with open(path, 'rb') as f:
