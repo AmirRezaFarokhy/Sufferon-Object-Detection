@@ -36,6 +36,7 @@ def load_data(path):
 	return np.array(X), np.array(y)
 
 
+
 # create model_1 in 4 conv layer and 1 dense... output layer is 3 for every 3 classes.
 def CreatModelOne():
 	model = Sequential()
